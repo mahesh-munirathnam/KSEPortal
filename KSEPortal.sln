@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSEPortal", "KSEPortal\KSEPortal.csproj", "{595FF69D-93DA-4C47-B4EF-8E3EC9D0C403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{595FF69D-93DA-4C47-B4EF-8E3EC9D0C403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595FF69D-93DA-4C47-B4EF-8E3EC9D0C403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595FF69D-93DA-4C47-B4EF-8E3EC9D0C403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595FF69D-93DA-4C47-B4EF-8E3EC9D0C403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
