@@ -16,6 +16,11 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -114,7 +119,41 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-datetimepicker.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\icomoon.css" />
+    <Content Include="css\style.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\broken_noise.png" />
+    <Content Include="images\broken_noise_%402X.png" />
+    <Content Include="images\gallery_1.jpeg" />
+    <Content Include="images\gallery_2.jpeg" />
+    <Content Include="images\gallery_3.jpeg" />
+    <Content Include="images\gallery_4.jpeg" />
+    <Content Include="images\gallery_5.jpeg" />
+    <Content Include="images\gallery_6.jpeg" />
+    <Content Include="images\gallery_7.jpeg" />
+    <Content Include="images\gallery_8.jpeg" />
+    <Content Include="images\gallery_9.jpeg" />
+    <Content Include="images\hero_1.jpeg" />
+    <Content Include="images\img_1.jpeg" />
+    <Content Include="images\img_sm_1.jpeg" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\person_1.jpg" />
+    <Content Include="js\bootstrap-datetimepicker.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.stellar.min.js" />
+    <Content Include="js\jquery.waypoints.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\modernizr-2.6.2.min.js" />
+    <Content Include="js\moment.min.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\zoomerang.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -126,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="fonts\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +173,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\LandingPage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\style.css.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
