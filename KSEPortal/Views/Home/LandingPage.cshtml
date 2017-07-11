@@ -281,30 +281,25 @@
     </div>
 
     @* Popup *@
-    <div class="container">
-        <h2>Modal Example</h2>
-        <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
 
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title" style="text-align:center">Thank You for contacting us!!!!!!!!!!!!</h4>
-                    </div>
-                    <div class="modal-body" style="text-align:center;color:black">
-                        <p>We Will reach out to Very soon. <br />
-                         Do visit us once</p>
-                    </div>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center">Thank You for contacting us!!!!!!!!!!!!</h4>
                 </div>
-
+                <div class="modal-body" style="text-align:center;color:black">
+                    <p>
+                        We Will reach out to Very soon. <br />
+                        Do visit us once
+                    </p>
+                </div>
             </div>
-        </div>
 
+        </div>
     </div>
 
     <!-- jQuery -->
@@ -355,5 +350,23 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAblJ1Vl9o9Jg8oDk0v0egedQ9aJTHWIlc&callback=myMap"></script>
 
+    @* SEO data Json-LD *@
+    <script type="application/ld+json">
+        {
+        "@@context": "http://schema.org",
+        "@@type": "LocalBusiness",
+        "address": {
+        "@@type": "PostalAddress",
+        "addressLocality": "Opp Hindustan Marbles and Granite",
+        "addressRegion": "Bangalore - 560027",
+        "streetAddress": "#179/12-01, Farah Point,2nd cross Lalbagh, Hosur Road,"
+        },
+        "description": "Manufacturers and retailers of Bangalore silk, Mysore silk, Kancheepuram silk, Crepe silk, gorgette silk, Cotton Silk, etc",
+        "name": "Karnataka Silk Emporium",
+        "telephone": "080-22290964",
+        "telephone": "080-41206563",
+        "openingHours": "Mo-Su 09:00-12:00",
+        }
+    </script>
 </body>
 </html>
