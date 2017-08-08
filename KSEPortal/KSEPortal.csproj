@@ -126,6 +126,7 @@
     <Content Include="css\icomoon.css" />
     <Content Include="css\style.css" />
     <Content Include="Global.asax" />
+    <Content Include="googlefdd20ea320b20f4a.html" />
     <Content Include="images\broken_noise.png" />
     <Content Include="images\broken_noise_%402X.png" />
     <Content Include="images\gallery_1.jpeg" />
@@ -154,6 +155,9 @@
     <Content Include="js\moment.min.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="js\zoomerang.js" />
+    <Content Include="KSEImage.jpg" />
+    <Content Include="ksicon.ico" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
